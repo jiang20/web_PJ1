@@ -1,0 +1,113 @@
+#filter
+{
+    left: 25%;
+    top:10%;
+    width: 70%;
+    position: absolute;
+    margin-left: 5%;
+}
+#filter table
+{
+    margin-top: 3%;
+    border: 2px solid lightsteelblue;
+    border-radius: 4px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#filter th
+{
+    background-color: #f1f1f1;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: dimgray;
+}
+
+#filter td
+{
+    border: 2px solid lightsteelblue;
+    font-size: 18px;
+    padding: 6px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#filter form
+{
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+#filter select
+{
+    background-color: white;
+    color: darkblue;
+    width: 30%;
+    height: 85%;
+    font-size: 80%;
+    text-align: center;
+}
+#filter .filters
+{
+    display: inline-block;
+    width: 70%;
+}
+
+#filter button
+{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    font: 100% bold;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}
+#filter .pictures
+{
+    float: left;
+    display: block;
+    position: relative;
+}
+.pictures img
+{
+    width: 20%;
+    padding: 2%;
+}
+#filter .pagination
+{
+    width: 100%;
+    display: block;
+    /*position: absolute;*/
+    top: 100%;
+    padding: 0;
+    margin: 0;
+    /*float: left;*/
+}
+#filter .pagination li {
+    display: inline-block;
+    width: 5%;
+    /*position: absolute;*/
+    margin-right: 3%;
+}
+#filter .pagination ul
+{
+    display: inline-block;
+}
+#filter .pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#filter .pagination li a:hover:not(.active)
+{
+    color: cornflowerblue;
+    background-color: white;
+}
+#filter .pagination li .active
+{
+    font-weight: bolder;
+    color: darkblue;
+    background-color: white;
+}
