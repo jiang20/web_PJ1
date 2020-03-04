@@ -1,0 +1,17 @@
+#headPhoto
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    top: 5%;
+    left: 0;
+    z-index: 0;
+}
+
+#headPhoto img
+{
+    position: absolute;
+    width: 100%;
+}
