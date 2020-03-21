@@ -9,6 +9,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 
 .searchOption
 {
+    width: 95%;
     border-radius: 5px;
     border-left: 1px solid lightsteelblue;
     border-right: 1px solid lightsteelblue;
@@ -31,13 +32,32 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 
 .searchOption .searchName
 {
-    background-color: rgba(211, 211, 211, 0.2);
+    color: dimgray;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(199, 199, 199, 0.2);
+    /*background-color: rgba(211, 211, 211, 0.2);*/
+}
+
+.searchOption input
+{
+    border: 1px solid #acc9eb;
+    /*width: 80%;*/
+}
+
+.searchOption .searchTitle
+{
+    width: 95%;
+    height: 20px;
+    outline: none;
 }
 .searchOption textarea
 {
     border-radius: 4px;
+    border: 1px solid #cfe2ff;
     margin: 5px 0;
     outline: none;
+    width: 95%;
     /*border: 2px solid lightsteelblue;*/
 }
 .searchOption button

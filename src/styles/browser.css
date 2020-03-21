@@ -42,23 +42,29 @@ input[type=text]
 }
 #leftBrowser table
 {
-    margin-bottom: 3%;
-    border: 2px solid lightsteelblue;
-    border-radius: 4px;
-    width: 100%;
-    border-collapse: collapse;
+    width: 95%;
+    border-radius: 5px;
+    border-left: 1px solid lightsteelblue;
+    border-right: 1px solid lightsteelblue;
+    border-top: 1px solid lightsteelblue;
+    /*padding: 8px;*/
+    margin: 10px auto;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 #leftBrowser th
 {
-    background-color: #f1f1f1;
+    background-color: rgba(199, 199, 199, 0.2);
+    color: dimgray;
+    font-weight: bold;
     padding: 5px;
     font-size: 18px;
     text-align: center;
-    color: darkgrey;
+    border-bottom: 1px solid lightsteelblue;
 }
 #leftBrowser td
 {
-    border: 2px solid lightsteelblue;
+    border-bottom: 1px solid lightsteelblue;
     font-size: 18px;
     padding: 4px;
     text-align: center;
@@ -83,29 +89,34 @@ main
 #filter table
 {
     margin-top: 3%;
-    border: 2px solid lightsteelblue;
-    border-radius: 4px;
-    width: 90%;
-    border-collapse: collapse;
+    border-left: 1px solid lightsteelblue;
+    border-right: 1px solid lightsteelblue;
+    border-top: 1px solid lightsteelblue;
+    border-radius: 5px;
+    width: 95%;
+    border-collapse: separate;
+    border-spacing: 0;
     float: left;
 }
 
 #filter th
 {
-    background-color: #f1f1f1;
-    padding: 5px;
-    font-size: 18px;
-    text-align: center;
     color: dimgray;
+    font-weight: bold;
+    background-color: rgba(199, 199, 199, 0.2);
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid lightsteelblue;
 }
 
 #filter td
 {
-    border: 2px solid lightsteelblue;
-    font-size: 18px;
+    border-bottom: 1px solid lightsteelblue;
+    font-size: 15px;
     padding: 6px;
     text-align: center;
-    border-collapse: collapse;
+    /*border-collapse: collapse;*/
 }
 #filter form
 {

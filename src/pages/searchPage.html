@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>TravelShare:SearchPage</title>
     <link rel="stylesheet" type="text/css" href="../styles/top.css">
+<!--    <link rel="stylesheet" type="text/css" href="../styles/basicTable.css">-->
     <link rel="stylesheet" type="text/css" href="../styles/search.css">
     <link rel="stylesheet" type="text/css" href="../styles/foot.css">
     <link rel="stylesheet" type="text/css" href="../styles/pagination.css">
@@ -37,10 +38,10 @@
                 <form>
                     <label>
                         <input type="radio" name="search method" value="title">Filter by Title<br>
-                        <textarea type="text" cols="180%" name="context"></textarea>
+                        <input type="text" name="context" class="searchTitle">
                         <br>
                         <input type="radio" name="search method" value="description">Filter by Description<br>
-                        <textarea type="text" cols="180%" rows="10%" name="context"></textarea>
+                        <textarea type="text"rows="10%" name="context"></textarea>
                     </label>
                 </form>
                 <button>Filter</button>
