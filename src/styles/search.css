@@ -31,7 +31,6 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 
 .searchOption .searchName
 {
-    border-bottom: 1px solid lightsteelblue;
     background-color: rgba(211, 211, 211, 0.2);
 }
 .searchOption textarea

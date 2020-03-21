@@ -1,0 +1,73 @@
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+
+.uploadPicture
+{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.btn
+{
+    text-align: center;
+}
+.uploadButton, .submitButton
+{
+    background:linear-gradient(to bottom, limegreen, #068b06);
+    padding: 5px 60px;
+    color: white;
+    border-radius: 6px;
+    border-color: green;
+}
+.uploadTable .submitButton
+{
+    padding: 10px 20px;
+}
+.uploadButton:hover,.submitButton:hover
+{
+    background: green;
+}
+
+.uploadButton:focus,.submitButton:focus
+{
+    outline: none;
+}
+
+.uploadTable form
+{
+    margin: 15px auto;
+}
+
+.pictureInfo
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.pictureInfo input
+{
+    width: 90%;
+    height: 20px;
+    /*border-color: lightsteelblue;*/
+    border:1px solid lightsteelblue;
+    outline: none;
+    border-radius: 4px;
+    /*border:  lightcyan 1px;*/
+}
+
+.pictureInfo textarea
+{
+    border-radius: 4px;
+    width: 90%;
+    height: 80px;
+    outline: none;
+    border:1px solid lightsteelblue;
+    /*border-color: black;*/
+}

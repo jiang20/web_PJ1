@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelShare:UploadPage</title>
+    <link rel="stylesheet" type="text/css" href="../styles/top.css">
+    <link rel="stylesheet" type="text/css" href="../styles/basicTable.css">
+    <link rel="stylesheet" type="text/css" href="../styles/basicButton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/upload.css">
+    <link rel="stylesheet" type="text/css" href="../styles/foot.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="navigation">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="browsePage.html">Browse</a></li>
+                <li><a href="searchPage.html">Search</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <button id="account">My account</button>
+            <div class="dropdown-content">
+                <a href="./uploadPage.html">upload</a>
+                <a href="../../index.html">my photos</a>
+                <a href="../../index.html">like</a>
+                <a href="../../index.html">sign in</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <table class="uploadTable">
+            <tr>
+                <td class="tableTitle">Upload</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="uploadPicture">图片未上传</div>
+                    <div class="btn">
+                        <button class="uploadButton">Upload</button>
+                    </div>
+                    <div class="pictureInfo">
+                        <form>
+                            图片标题:<br>
+                            <br>
+                            <input type="text" name="pictureTitle">
+                        </form>
+                        <form>
+                            图片描述:<br><br>
+                            <textarea type="text" name="pictureDescription" cols="150%"></textarea>
+                        </form>
+                        <form>
+                            拍摄国家:<br><br>
+                            <input type="text" name="pictureDescription">
+                        </form>
+                        <form>
+                            拍摄城市:<br><br>
+                            <input type="text" name="pictureDescription">
+                        </form>
+                    </div>
+                    <button class="submitButton">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer id="normalFoot">
+        This is the first web by Little JiangJiang. Wish you best!
+    </footer>
+</body>
+</html>
