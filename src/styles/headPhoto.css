@@ -10,17 +10,33 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 #headPhoto
 {
     width: 100%;
-    height: auto;
-    position: absolute;
-    display: block;
-    object-fit: cover;
-    top: 5%;
-    left: 0;
+    height: 35%;
+    position: relative;
+    /*display: block;*/
+    /*object-fit: cover;*/
+    /*top: 5%;*/
+    /*left: 0;*/
     z-index: 0;
+    overflow: hidden;
 }
 
 #headPhoto img
 {
-    position: absolute;
+    float: left;
     width: 100%;
+    z-index: 0;
+}
+
+#hotExhibit
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#hotExhibit img
+{
+    float: left;
+    width: 100%;
+    z-index: 0;
 }

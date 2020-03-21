@@ -9,9 +9,10 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 
 #normalFoot
 {
-    position: absolute;
-    bottom: 1%;
-    left: 5%;
+    /*position: absolute;*/
+    /*bottom: 1%;*/
+    /*left: 5%;*/
+    padding: 15px 0 0 15px;
     color: black;
     font-size: 10px;
 }

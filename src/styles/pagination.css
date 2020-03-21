@@ -1,0 +1,39 @@
+.pagination
+{
+    width: 100%;
+    display: block;
+    /*position: absolute;*/
+    float: left;
+    /*top: 100%;*/
+    padding: 0;
+    text-align: center;
+    /*margin: 0 auto;*/
+    /*float: left;*/
+}
+.pagination li {
+    display: inline-block;
+    width: 5%;
+    /*position: absolute;*/
+    margin-right: 3%;
+}
+.pagination ul
+{
+    display: inline-block;
+}
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination li a:hover:not(.active)
+{
+    color: cornflowerblue;
+    background-color: white;
+}
+.pagination li .active
+{
+    font-weight: bolder;
+    color: darkblue;
+    background-color: white;
+}

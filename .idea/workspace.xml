@@ -2,94 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a77dde-7921-46a4-bf05-1b1f04f6488a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/headPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/hotExhibit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/searchPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/make-smallsquare.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square-medium/make-tinysquare.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/searchPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/browsePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/browsePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/browsePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/browser.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/browser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/filter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/foot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/headPhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/headPhoto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/hotExhibit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/hotExhibit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/top.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,11 +75,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583068726280</updated>
-      <workItem from="1583068728681" duration="41108000" />
+      <workItem from="1583068728681" duration="72947000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="117" key="#Inspections" timestamp="1584783192895">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="117" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1584783192895" />
   </component>
 </project>
