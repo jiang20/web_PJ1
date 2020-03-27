@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a77dde-7921-46a4-bf05-1b1f04f6488a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/myPhoto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/myPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/like.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/likePhoto.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/browsePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/browsePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/myPhoto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/searchPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/searchPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/uploadPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/uploadPage.html" afterDir="false" />
     </list>
@@ -37,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -45,6 +46,7 @@
       <recent name="$PROJECT_DIR$/src/styles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -70,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583068726280</updated>
-      <workItem from="1583068728681" duration="89769000" />
+      <workItem from="1583068728681" duration="91179000" />
     </task>
     <servers />
   </component>
