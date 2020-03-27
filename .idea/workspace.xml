@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a77dde-7921-46a4-bf05-1b1f04f6488a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/homePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/like.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/likePhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/signUpPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/uploadedPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/browsePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/browsePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/like.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/like.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/myPhoto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/searchPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/searchPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/uploadPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/uploadPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/browser.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/browser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/foot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/top.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/upload.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583068726280</updated>
-      <workItem from="1583068728681" duration="91179000" />
+      <workItem from="1583068728681" duration="99734000" />
     </task>
     <servers />
   </component>

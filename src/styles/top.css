@@ -8,7 +8,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 }
 #header
 {
-    height: 3%;
+    /*height: 5%;*/
     width: 100%;
     background-color: black;
     /*position: relative;*/
@@ -22,6 +22,11 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     float: left;
     display: inline-block;
     background-color: black;
+}
+
+#header .navigation ul li img
+{
+    height: 40px;
 }
 #header ul
 {
@@ -44,6 +49,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     padding: 0;
     position: relative;
     overflow: hidden;
+    height: 40px;
 }
 #header li a
 {
@@ -51,8 +57,9 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 10px 16px;
     overflow: hidden;
+    height: 100%;
 }
 
 li a:hover:not(.active)
@@ -78,6 +85,12 @@ li a:hover:not(.active)
     /*position: relative;*/
     float: right;
     display: inline-block;
+    height: 40px;
+}
+
+.dropdown #account
+{
+    height: 100%;
 }
 .dropdown #account:focus
 {

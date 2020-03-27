@@ -3,128 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Home:TravelShare</title>
-    <link rel="stylesheet" type="text/css" href="src/styles/top.css">
-    <link rel="stylesheet" type="text/css" href="src/styles/headPhoto.css">
-    <link rel="stylesheet" type="text/css" href="src/styles/hotExhibit.css">
+    <link rel="stylesheet" type="text/css" href="src/styles/signin.css">
+    <link rel="stylesheet" type="text/css" href="src/styles/foot.css">
 </head>
 <body>
-    <header id="header">
-        <nav class="navigation">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="src/pages/browsePage.html">Browse</a></li>
-                <li><a href="src/pages/searchPage.html">Search</a></li>
-            </ul>
-        </nav>
-        <div class="dropdown">
-            <button id="account">My account</button>
-            <div class="dropdown-content">
-                <a href="./src/pages/uploadPage.html">upload</a>
-                <a href="./src/pages/myPhoto.html">my photos</a>
-                <a href="index.html">like</a>
-                <a href="index.html">sign in</a>
-            </div>
-        </div>
-    </header>
-    <div id="headPhoto">
-        <img src="img/normal/medium/8711623884.jpg">
+
+<main>
+<div class="signIn">
+    <div class="cartoonPhoto">
+        <img src="img1/cartoonIndex.jpg">
+        <div>sign in for JiangJiang</div>
     </div>
-    <main id="hotExhibit">
-        <div>
-        <ul class="hotPicture">
-            <li>
-                <img src="img/square/square-medium/5855213165.jpg">
-            </li>
-            <li>
-                <td class="name">p1</td>
-            </li>
-            <li>
-                <td class="explanation">exp1</td>
-            </li>
-        </ul>
-        <ul class="hotPicture">
-            <li>
-                <img src="img/square/square-medium/5856616479.jpg">
-            </li>
-            <li>
-                <td class="name">p1</td>
-            </li>
-            <li>
-                <td class="explanation">exp1</td>
-            </li>
-        </ul>
-        <ul class="hotPicture">
-            <li>
-                <img src="img/square/square-medium/5855191275.jpg">
-            </li>
-            <li>
-                <td class="name">p1</td>
-            </li>
-            <li>
-                <td class="explanation">exp1</td>
-            </li>
-        </ul>
-        </div>
-        <div align="center">
-        <ul class="hotPicture">
-            <li>
-                <img src="img/square/square-medium/5855209453.jpg">
-            </li>
-            <li>
-                <td class="name">p1</td>
-            </li>
-            <li>
-                <td class="explanation">exp1</td>
-            </li>
-        </ul>
-        <ul class="hotPicture">
-            <li>
-                <img src="img/square/square-medium/5855221959.jpg">
-            </li>
-            <li>
-                <td class="name">p1</td>
-            </li>
-            <li>
-                <td class="explanation">exp1</td>
-            </li>
-        </ul>
-        <ul class="hotPicture">
-            <li>
-                <img src="img/square/square-medium/5855729828.jpg">
-            </li>
-            <li>
-                <td class="name">p1</td>
-            </li>
-            <li>
-                <td class="explanation">exp1</td>
-            </li>
-        </ul>
-        </div>
-    </main>
-    <footer class="homeFoot">
-        <div class="personalInfo">
-            <div>
-                <span>微信：jj18956966621</span>
-                <br>
-                <br>
-                <br>
-                <span>住址：仙女们聚集地:)</span>
-            </div>
-            <div>
-                <span>电话：18021006202</span>
-                <br>
-                <br>
-                <br>
-                <span>欢迎来找仙女们玩儿</span>
-            </div>
-            <div class="cartoon">
-                <img src="img1/cartoon.jpg">
-            </div>
-        </div>
-        <div class="weChat">
-            <img src="img1/myWechat.jpg">
-        </div>
-        <p>This is the first web by Little JiangJiang. Wish you best!</p>
-    </footer>
+    <form class="signInForm">
+        <div class="cue">Username/E-mail:</div>
+        <input type="text" name="username/e-mail"><br>
+        <div class="cue">Password:</div>
+        <input type="password" name="password"><br>
+        <button><a href="src/pages/homePage.html" class="signInBtn" type="button">sign in</a></button>
+    </form>
+    <div>
+        New to JiangJiang?
+        <a href="src/pages/signUpPage.html" class="signUpBtn">Create a new account</a>
+    </div>
+</div>
+</main>
+
+<footer id="normalFoot" class="footerNotFull">
+    <p>This is the first web by Little JiangJiang. Wish you best!</p>
+</footer>
 </body>
 </html>

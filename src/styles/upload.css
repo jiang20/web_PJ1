@@ -36,7 +36,20 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     margin-top: 120px;
     text-align: center;
 }
-
+.uploadButton a
+{
+    text-decoration: none;
+    color: white;
+}
+.uploadedPicture
+{
+    margin-top: 10px;
+    text-align: center;
+}
+.uploadedPicture img
+{
+    height: 150px;
+}
 .btn
 {
     text-align: center;

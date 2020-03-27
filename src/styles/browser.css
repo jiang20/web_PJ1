@@ -6,7 +6,10 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     vertical-align: baseline;
     border: 0;
 }
-
+html
+{
+    min-height: 100%;
+}
 #leftBrowser
 {
     width: 20%;
