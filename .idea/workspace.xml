@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a77dde-7921-46a4-bf05-1b1f04f6488a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/browsePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/browsePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/hotExhibit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/hotExhibit.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583068726280</updated>
       <workItem from="1583068728681" duration="102989000" />
-      <workItem from="1585745290316" duration="548000" />
+      <workItem from="1585745290316" duration="10389000" />
     </task>
     <servers />
   </component>

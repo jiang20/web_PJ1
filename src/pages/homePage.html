@@ -6,6 +6,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/top.css">
     <link rel="stylesheet" type="text/css" href="../styles/headPhoto.css">
     <link rel="stylesheet" type="text/css" href="../styles/hotExhibit.css">
+<!--    <style>-->
+<!--        .fixed {-->
+<!--            position: fixed;-->
+<!--            bottom: 0;-->
+<!--            left: 100%;-->
+<!--        }-->
+<!--    </style>-->
 </head>
 <body>
     <header id="header">
@@ -30,6 +37,10 @@
     <div id="headPhoto">
         <img src="../../img/normal/medium/8711623884.jpg">
     </div>
+
+<!--    <div id="toTop"><img src="../../img1/toTop.jpg"></div>-->
+
+
     <main id="hotExhibit">
         <div>
         <ul class="hotPicture">
@@ -102,6 +113,7 @@
         </ul>
         </div>
     </main>
+
     <footer class="homeFoot">
         <div class="personalInfo">
             <div>
@@ -126,6 +138,22 @@
             <img src="../../img1/myWechat.jpg">
         </div>
         <p>This is the first web by Little JiangJiang. Wish you best!</p>
+
     </footer>
+    <div id="toTop">
+        <div><img src="../../img1/refresh.jpg" onclick="alert('refresh pictures')"></div>
+        <a href="#header"><img src="../../img1/toTop.jpg"></a>
+    </div>
+<!--    <script>-->
+<!--        var sticky = document.querySelector('#toTop');-->
+<!--        var origOffsetY = sticky.offsetTop;-->
+
+<!--        function onScroll(e) {-->
+<!--            window.scrollY >= origOffsetY ? sticky.classList.add('fixed') :-->
+<!--                sticky.classList.remove('fixed');-->
+<!--        }-->
+
+<!--        document.addEventListener('scroll', onScroll);-->
+<!--    </script>-->
 </body>
 </html>

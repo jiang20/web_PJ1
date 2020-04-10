@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/browser.css">
     <link rel="stylesheet" type="text/css" href="../styles/foot.css">
     <link rel="stylesheet" type="text/css" href="../styles/pagination.css">
+    <link href="../js/browser.js">
 </head>
 <body>
     <header id="header">
@@ -99,19 +100,26 @@
                         <div class="filters">
                             <form>
                                 <select>
-                                    <option value="aaa">red</option>
-                                    <option value="bbb">blue</option>
-                                    <option value="ccc">green</option>
+                                    <option value=""disabled selected hidden>Filter By Content</option>
+                                    <option value="aaa">Sea</option>
+                                    <option value="bbb">Animal</option>
+                                    <option value="ccc">Forest</option>
+                                    <option value="ccc">Food</option>
+                                    <option value="ccc">Entertainment</option>
+                                    <option value="ccc">History</option>
                                 </select>
-                                <select>
-                                    <option value="aaa">bread</option>
-                                    <option value="bbb">juice</option>
-                                    <option value="ccc">coca</option>
+                                <select id="country_select" onclick="city_change()">
+                                    <option value=""disabled selected hidden>Filter By Country</option>
+                                    <option value="China">China</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="America">America</option>
                                 </select>
-                                <select>
-                                    <option value="aaa">hat</option>
-                                    <option value="bbb">coat</option>
-                                    <option value="ccc">jacket</option>
+                                <select id="city_select">
+                                    <option value=""disabled selected hidden>Filter By City</option>
+<!--                                    <option value="aaa">hat</option>-->
+<!--                                    <option value="bbb">coat</option>-->
+<!--                                    <option value="ccc">jacket</option>-->
                                 </select>
                             </form>
                         </div>
