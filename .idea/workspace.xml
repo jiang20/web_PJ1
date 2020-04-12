@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a77dde-7921-46a4-bf05-1b1f04f6488a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/foot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/picture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web_PJ1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_PJ1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/browsePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/browsePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/like.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/like.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/myPhoto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/searchPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/searchPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/uploadPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/uploadPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/uploadedPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/uploadedPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/browser.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/browser.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/foot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/hotExhibit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/hotExhibit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/likePhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/likePhoto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/myPhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/myPhoto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/top.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/upload.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +38,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,16 +58,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/styles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -71,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583068726280</updated>
       <workItem from="1583068728681" duration="102989000" />
-      <workItem from="1585745290316" duration="10389000" />
+      <workItem from="1585745290316" duration="33324000" />
     </task>
     <servers />
   </component>
@@ -83,6 +107,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="117" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1584783192895" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1586667866879">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586667866879" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1584800193841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

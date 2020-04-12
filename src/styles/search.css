@@ -6,7 +6,10 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     vertical-align: baseline;
     border: 0;
 }
-
+body
+{
+    font-family: sans-serif;
+}
 .searchOption
 {
     width: 95%;
@@ -27,21 +30,31 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     /*border-collapse: collapse;*/
     /*这里面的⬆️这个就是没有用的*/
     border-bottom: 1px solid lightsteelblue;
-    padding: 5px 15px;
+    padding: 5px 0 5px 15px;
 }
 
 .searchOption .searchName
 {
-    color: dimgray;
-    font-weight: bold;
-    font-size: 15px;
+    /*color: dimgray;*/
+    /*font-weight: bold;*/
+    /*font-size: 15px;*/
+    color: #505050;
+    font-weight: lighter;
+    padding: 7px;
+    font-size: 14px;
     background-color: rgba(199, 199, 199, 0.2);
     /*background-color: rgba(211, 211, 211, 0.2);*/
 }
-
+.searchOption form
+{
+    font-size: 14px;
+}
 .searchOption input
 {
     border: 1px solid #acc9eb;
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 2px 0;
     /*width: 80%;*/
 }
 
@@ -67,6 +80,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     color: white;
     border-radius: 6px;
     border-color: green;
+    cursor: pointer;
 }
 
 .searchOption button:hover
@@ -82,6 +96,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 {
     display: inline-block;
     width: 20%;
+    vertical-align: top;
 }
 
 .searchOption img
@@ -92,15 +107,18 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 .searchOption table
 {
     display: inline-block;
-    width: 70%;
+    width: 75%;
+    vertical-align: top;
+    padding-top: 10px;
 }
 
 .searchOption table td
 {
     border: none;
+    font-size: 13px;
 }
 
 .searchOption .resultTitle
 {
-    font: 20px bond;
+    font-size: 16px;
 }

@@ -10,6 +10,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 body
 {
     background-color: #eff2ff;
+    font-family: sans-serif;
 }
 .cartoonPhoto
 {

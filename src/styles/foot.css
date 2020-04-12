@@ -16,3 +16,9 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     color: black;
     font-size: 10px;
 }
+
+.footerNotFull
+{
+    position: absolute;
+    bottom: 0;
+}

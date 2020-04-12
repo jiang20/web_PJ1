@@ -6,7 +6,10 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     vertical-align: baseline;
     border: 0;
 }
-
+body
+{
+    font-family: sans-serif;
+}
 .myPhotos
 {
     width: 95%;
@@ -23,14 +26,17 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 .myPhotos td
 {
     border-bottom: 1px solid lightsteelblue;
-    padding: 5px 15px;
+    padding: 5px 0 5px 15px;
 }
 
-.myPhotos .tableTitle
+.myPhotos .tableTitle td
 {
-    color: dimgray;
-    font-weight: bold;
-    font-size: 15px;
+    /*color: dimgray;*/
+    /*font-weight: bold;*/
+    /*font-size: 15px;*/
+    color: #505050;
+    padding: 7px;
+    font-size: 14px;
     background-color: rgba(199, 199, 199, 0.2);
 }
 
@@ -43,18 +49,20 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
 
 .myPhotos table
 {
-    width: 70%;
+    width: 75%;
     display: inline-block;
     vertical-align: top;
+    padding-top: 5px;
 }
 
 .myPhotos table td
 {
     border-bottom: none;
+    font-size: 14px;
 }
 .myPhotos table td.photoName
 {
-    font-size: 20px;
+    font-size: 15px;
 }
 .modifyButton,.deleteButton
 {
@@ -62,12 +70,14 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     height: 100%;
     width: 15%;
     font: 100% bold;
-    background:linear-gradient(to bottom, gainsboro, whitesmoke);
+    background:linear-gradient(to bottom, #ededed, #fefefe);
     /*padding: 5px 20px;*/
     padding: 10px 5px;
     border-radius: 6px;
-    border-color: lightgrey;
+    border-color: #e7e7e7;
     text-align: center;
+    vertical-align: bottom;
+    cursor: pointer;
 }
 
 .modifyButton:hover,.deleteButton:hover

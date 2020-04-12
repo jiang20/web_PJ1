@@ -6,7 +6,10 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     vertical-align: baseline;
     border: 0;
 }
-
+body
+{
+    font-family: sans-serif;
+}
 .likePhoto
 {
     width: 95%;
@@ -26,11 +29,11 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     padding: 5px 15px;
 }
 
-.likePhoto .tableTitle
+.likePhoto td.tableTitle
 {
-    color: dimgray;
-    font-weight: bold;
-    font-size: 15px;
+    color: #505050;
+    padding: 7px;
+    font-size: 14px;
     background-color: rgba(199, 199, 199, 0.2);
 }
 
@@ -45,14 +48,16 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     display: inline-block;
     width: 70%;
     vertical-align: top;
+    padding-top: 5px;
 }
 .likePhoto table td {
     border-bottom: none;
+    font-size: 14px;
 }
 
 .likePhoto table td.photoTitle
 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .deleteButton
@@ -68,6 +73,7 @@ html, body, header, footer, hgroup, nav, main, article, section, figure, figcapt
     border-color: lightgrey;
     text-align: center;
     color: red;
+    cursor: pointer;
 }
 
 .deleteButton:hover

@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="../styles/basicButton.css">
     <link rel="stylesheet" type="text/css" href="../styles/upload.css">
     <link rel="stylesheet" type="text/css" href="../styles/foot.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../js/upload.js"></script>
 </head>
 <body>
 <header id="header">
@@ -36,7 +38,16 @@
         <tr>
             <td>
                 <div class="uploadedPicture">
-                    <img src="../../img/normal/medium/6596046267.jpg">
+                    <img class="uploadedPicture">
+                </div>
+                <div id="box" style="">
+                    <!-- 上传广告图 -->
+                    <form class="upBox">
+                        <div class="inputBox">
+                            <input type="file" title="请选择图片" id="file1" multiple accept="image/png,image/jpg,image/gif,image/JPEG"/><span class="goon">点击选择</span><strong>广告图</strong></div>
+                        <div id="imgBox1"></div>
+                        <a class="btn" id="btn1">上传</a>
+                    </form>
                 </div>
                 <div class="btn">
                     <button class="uploadButton">Upload</button>

@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="../styles/basicButton.css">
     <link rel="stylesheet" type="text/css" href="../styles/upload.css">
     <link rel="stylesheet" type="text/css" href="../styles/foot.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../js/upload.js"></script>
 </head>
 <body>
     <header id="header">
@@ -37,8 +39,32 @@
                 <td>
                     <div class="uploadPicture">图片未上传</div>
                     <div class="btn">
-                        <button class="uploadButton"><a href="uploadedPage.html">Upload</a></button>
+                        <button class="uploadButton" onclick>Upload</button>
+<!--                        <a href="uploadedPage.html">Upload</a>-->
                     </div>
+                    <div id="box" style="">
+                        <!-- 上传广告图 -->
+                        <form class="upBox">
+                            <div class="inputBox">
+                                <input type="file" title="请选择图片" id="file1" multiple accept="image/png,image/jpg,image/gif,image/JPEG"/><span class="goon">点击选择</span><strong>广告图</strong></div>
+                            <div id="imgBox1"></div>
+                            <a class="btn" id="btn1">上传</a>
+                        </form>
+                    </div>
+                    <script src="../js/upload.js" charset="utf-8"></script>
+<!--                    <script type="text/javascript">-->
+<!--                        var removeImg = move.removeImg;-->
+<!--                        // ad_img-->
+<!--                        move.imgUpload({-->
+<!--                            inputId:'file1', //input框id-->
+<!--                            imgBox:'imgBox1', //图片容器id-->
+<!--                            buttonId:'btn1', //提交按钮id-->
+<!--                            upUrl:'http://.......',//提交地址-->
+<!--                            data:'file1', //参数名-->
+<!--                            num:"2"//上传个数限制-->
+<!--                        });-->
+<!--                    </script>-->
+
                     <div class="pictureInfo">
                         <form>
                             图片标题:<br>
@@ -58,7 +84,7 @@
                             <input type="text" name="pictureDescription">
                         </form>
                     </div>
-                    <button class="submitButton">Submit</button>
+                    <button class="submitButton" onclick="alert('Submit successfully!')">Submit</button>
                 </td>
             </tr>
         </table>
