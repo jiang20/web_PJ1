@@ -148,9 +148,8 @@
 
 
 //add-user-headImg 是 input ,使用change监听
-$("#file1").change(function(){
+$("#file1").on("change",function(){
 
-    // alert(1);
     //检测用户的浏览器是否支持FileReader
     if(typeof FileReader==='undefined'){
         alert("您的浏览器暂不支持上传图片");
@@ -186,7 +185,6 @@ $("#file1").change(function(){
         $(".uploadedPicture").attr("src",imgURL);
         image.onload = function(){
             //获取Image对象的宽高
-            // alert(2);
             var fileWidth = this.width;
             var fileHeight = this.height;
             //上传文件的宽高之比
@@ -197,19 +195,9 @@ $("#file1").change(function(){
             if(ImgHeight > 145){
                 ImgHeight = 145;
             }
-            $(".notUpload").css({visibility:"hidden"});
             //调整高，这里一定要加 !important，否则下次你设置的时候，css不会改变。
             $(".uploadedPicture").css({height:ImgHeight+"px !important"});
-
         };
     };
-});
-
-
-$(document).ready(function(){
-    $('.uploadButton').click(function(){
-        $('#file1').click();
-    });
-
 });
 

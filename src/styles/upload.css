@@ -119,3 +119,7 @@ main table
     border:1px solid lightsteelblue;
     /*border-color: black;*/
 }
+#file1
+{
+    display: none;
+}
