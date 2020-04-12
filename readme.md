@@ -7,7 +7,7 @@
 ## 项目完成情况
 ### 登录注册界面
 登录：
-![signin.png](https://github.com/jiang20/web_PJ1/img/signin.png)
+![signin.png](./img/signin.png)
 注册：
 ![signup.png](https://github.com/jiang20/web_PJ1/img/signup.png)
 
