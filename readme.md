@@ -7,30 +7,30 @@
 ## 项目完成情况
 ### 登录注册界面
 登录：
-![signin.png](https://github.com/jiang20/web_PJ1/edit/master/img/signin.png)
+![signin.png](https://github.com/jiang20/web_PJ1/img/signin.png)
 注册：
-![signup.png](https://github.com/jiang20/web_PJ1/edit/master/img/signup.png)
+![signup.png](https://github.com/jiang20/web_PJ1/img/signup.png)
 
 ### 首页
-![home.jpeg](https://github.com/jiang20/web_PJ1/edit/master/img/home.jpeg)
+![home.jpeg](https://github.com/jiang20/web_PJ1/img/home.jpeg)
 
 ### 浏览
-![broswer.jpeg](https://github.com/jiang20/web_PJ1/edit/master/img/broswer.jpeg)
+![broswer.jpeg](https://github.com/jiang20/web_PJ1/img/broswer.jpeg)
 
 ### 搜索
-![search.jpeg](https://github.com/jiang20/web_PJ1/edit/master/img/search.jpeg)
+![search.jpeg](https://github.com/jiang20/web_PJ1/img/search.jpeg)
 
 ### 上传
 上传前：
-![upload.png](https://github.com/jiang20/web_PJ1/edit/master/img/upload.png)
+![upload.png](https://github.com/jiang20/web_PJ1/img/upload.png)
 上传后：
-![uploaded.png](https://github.com/jiang20/web_PJ1/edit/master/img/uploaded.png)
+![uploaded.png](https://github.com/jiang20/web_PJ1/img/uploaded.png)
 
 ### 我的照片
-![my_photo.jpeg](https://github.com/jiang20/web_PJ1/edit/master/img/my_photo.jpeg)
+![my_photo.jpeg](https://github.com/jiang20/web_PJ1/img/my_photo.jpeg)
 
 ### 我的收藏
-![my_favorite.jpeg](https://github.com/jiang20/web_PJ1/edit/master/img/my_favorite.jpeg)
+![my_favorite.jpeg](https://github.com/jiang20/web_PJ1/img/my_favorite.jpeg)
 
 ## 有关bonus
 ### bonus5.1 图片裁剪
