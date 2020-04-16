@@ -80,7 +80,7 @@ input[type=text]
     padding: 7px;
     text-align: left;
     color: #5f8fee;
-
+    cursor: pointer;
 }
 
 main
@@ -111,7 +111,12 @@ main
     border-spacing: 0;
     float: left;
 }
-
+#filter .pictures .imageCut
+{
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+}
 #filter th
 {
     background-color: rgba(199, 199, 199, 0.2);
@@ -193,6 +198,7 @@ main
 #filter .pictures img
 {
     width: 20%;
+    /*height: 100%;*/
     padding: 1% 2%;
 }
 

@@ -11,7 +11,7 @@
 <!--    <script src="../js/upload1.js"></script>-->
 <!--    <script src="../js/upload.js"></script>-->
 </head>
-<body>
+<body onresize="changed()">
 <header id="header">
     <nav class="navigation">
         <ul>
@@ -24,10 +24,10 @@
     <div class="dropdown">
         <button id="account">My account</button>
         <div class="dropdown-content">
-            <a href="uploadedPage.html">upload</a>
-            <a href="myPhoto.html">my photos</a>
-            <a href="like.html">like</a>
-            <a href="../../index.html">sign in</a>
+            <a href="uploadedPage.html" class="active"><img src="../../img/icons/upload.png">upload</a>
+            <a href="myPhoto.html"><img src="../../img/icons/photo.png">my photos</a>
+            <a href="like.html"><img src="../../img/icons/like.png">like</a>
+            <a href="../../index.html"><img src="../../img/icons/sign.png">sign in</a>
         </div>
     </div>
 </header>
@@ -73,7 +73,7 @@
                         <input type="text" name="pictureDescription">
                     </form>
                 </div>
-                <button class="submitButton">Submit</button>
+                <button class="submitButton" onclick="alert('submitting')"><a href="picture.html">Submit</a></button>
             </td>
         </tr>
     </table>

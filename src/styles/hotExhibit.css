@@ -81,6 +81,16 @@ tbody
     white-space: nowrap; /*文本不换行，这样超出一行的部分被截取，显示...*/
     padding-bottom: 13px;
 }
+
+.hotPicture .cutPicture
+{
+    /*width: inherit;*/
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
 .hotPicture .name
 {
     display: block;

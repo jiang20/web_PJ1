@@ -34,7 +34,8 @@
 // }
 
 var data =
-    [{country:"China",cities:["Shanghai","Kunming","Beijing","Yantai"]},
+    [{country:"Filter By Country",cities:["Filter-By-City"]},
+        {country:"China",cities:["Shanghai","Kunming","Beijing","Yantai"]},
         {country:"Japan",cities:["Tokyo", "Osaka", "Kamakura"]},
         {country:"Italy",cities:["Roma","Milan","Venice","Florence"]},
         {country:"America",cities:["New York","San Francisco", "Washington"]}];
@@ -69,6 +70,49 @@ function city_change() {
         city_select.appendChild(option);
     }
 };
+
+
+$(function () {
+    var cut = document.getElementsByClassName("cut");
+    var w = cut.clientWidth;
+    var h = cut.clientHeight;
+    var height = "height";
+    var width = "width";
+    // alert(w);
+    // alert(h);
+    if(w>h){
+        // alert(1)
+        $(".cut").removeAttr(width);
+    }
+    else{
+        // alert(2)
+        $(".cut").removeAttr(height);
+    }
+    var ims = document.getElementsByClassName("imageCut");
+    for (var index = 0;index<ims.length;++index){
+        var im = ims[index];
+        // alert(im.src);
+        var realWidth = im.clientWidth;
+        var realHeight = im.clientHeight;
+        // alert(realWidth);
+        // alert(realHeight);
+        if (realWidth !== realHeight) {
+            // im.style.height = `${parseInt(getStyle(im, "width"))}px`;
+            // im.css("height",${parseInt(getStyle(im, "width"))}px);
+            // var h = "height";
+            // im[h] = realWidth+"px";
+            // im.clientHeight = realWidth;
+            // im.css("height", realWidth);
+            // im.css("width",realWidth);
+            // im.style("height",realWidth);
+        }
+        // alert(im.clientHeight);
+    }
+});
+
+function getStyle(parm1,parm2) {
+    return parm1.currentStyle ? parm1.currentStyle[parm2] : getComputedStyle(parm1)[parm2];  //parm1,要改变的元素代替名;parm2,要改变的属性名
+}
 //     switch (country_select) {
 //         case "China":{
 //             var length1= data[0].length;

@@ -30,9 +30,18 @@ body
     /*border-collapse: collapse;*/
     /*这里面的⬆️这个就是没有用的*/
     border-bottom: 1px solid lightsteelblue;
-    padding: 5px 0 5px 15px;
+    margin: 5px 0 5px 15px;
 }
-
+.searchOption td.introduction
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    /*overflow: hidden;*/
+}
 .searchOption .searchName
 {
     /*color: dimgray;*/

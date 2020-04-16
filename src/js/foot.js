@@ -16,9 +16,9 @@
 function changed() {
     var mainHeight = document.body.clientHeight;
     // var mainHeight = document.getElementsByName("main")[0].clientHeight;
-    var windowHeight = document.documentElement.scrollHeight-175;
-    console.log(mainHeight);
-    console.log(windowHeight);
+    var windowHeight = document.documentElement.scrollHeight-100;
+    // console.log(mainHeight);
+    // console.log(windowHeight);
     if (mainHeight<windowHeight){
         $("#normalFoot").addClass("footerNotFull");
     }
@@ -31,9 +31,9 @@ function changed() {
 $(function () {
     var mainHeight = document.body.clientHeight;
     // var mainHeight = document.getElementsByName("main")[0].clientHeight;
-    var windowHeight = document.documentElement.scrollHeight-175;
-    console.log(mainHeight);
-    console.log(windowHeight);
+    var windowHeight = document.documentElement.scrollHeight-100;
+    // console.log(mainHeight);
+    // console.log(windowHeight);
     if (mainHeight<windowHeight){
         $("#normalFoot").addClass("footerNotFull");
     }

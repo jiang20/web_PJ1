@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/foot.css">
     <link rel="stylesheet" type="text/css" href="../styles/pagination.css">
 </head>
-<body>
+<body onresize="changed()">
 
 <header id="header">
     <nav class="navigation">
@@ -22,10 +22,10 @@
     <div class="dropdown">
         <button id="account">My account</button>
         <div class="dropdown-content">
-            <a href="uploadedPage.html">upload</a>
-            <a href="myPhoto.html">my photos</a>
-            <a href="like.html">like</a>
-            <a href="../../index.html">sign in</a>
+            <a href="uploadedPage.html"><img src="../../img/icons/upload.png">upload</a>
+            <a href="myPhoto.html" class="active"><img src="../../img/icons/photo.png">my photos</a>
+            <a href="like.html"><img src="../../img/icons/like.png">like</a>
+            <a href="../../index.html"><img src="../../img/icons/sign.png">sign in</a>
         </div>
     </div>
 </header>
@@ -37,23 +37,26 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/6114850721.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/5856654945.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoName">Title</td>
                     </tr>
                     <tr>
-                        <td>每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
+                        <td class="introduction">每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
                             2、每一栏包括两个按钮，分别用来修改图片信息和删除图片(alert)，点击修改图片信息按 钮需要跳转到上传界面，在上传⻚面修改原有的图片信息。
                             功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
-                            整个部分下方显示⻚码(无需实现⻚码功能)
+                            整个部分下方显示⻚码(无需实现⻚码功能)ava的深克隆和浅克隆：
+                            Java中实现cloneable接口的并且重写clone接口每一个对象都有一个clone方法，目的是快速获取一个对象副本，分为深克隆和浅克隆。这两种克隆方式都会在堆中给新的对象分配一块区域。
+                            浅克隆：其中的非基本类型属性仍指向原对象属性的空间
+                            深克隆：其中的非基本类型属性也被开辟了新的空间
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="modifyButton">Modify</button>
-                            <button class="deleteButton">Delete</button>
+                            <a href="picture.html"><button class="modifyButton" onclick="alert('modified')">Modify</button></a>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                 </table>
@@ -61,23 +64,25 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/6114850721.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/5856616479.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoName">Title</td>
                     </tr>
                     <tr>
-                        <td>每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
+                        <td class="introduction">每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
                             2、每一栏包括两个按钮，分别用来修改图片信息和删除图片(alert)，点击修改图片信息按 钮需要跳转到上传界面，在上传⻚面修改原有的图片信息。
                             功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
+                            整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
+                            整个部分下方显示⻚码(无需实现⻚码功能)到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="modifyButton">Modify</button>
-                            <button class="deleteButton">Delete</button>
+                            <a href="picture.html"><button class="modifyButton" onclick="alert('modified')">Modify</button></a>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                 </table>
@@ -85,23 +90,25 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/6114850721.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/5855729828.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoName">Title</td>
                     </tr>
                     <tr>
-                        <td>每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
+                        <td class="introduction">每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
                             2、每一栏包括两个按钮，分别用来修改图片信息和删除图片(alert)，点击修改图片信息按 钮需要跳转到上传界面，在上传⻚面修改原有的图片信息。
                             功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
+                            整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
+                            整个部分下方显示⻚码(无需实现⻚码功能)到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="modifyButton">Modify</button>
-                            <button class="deleteButton">Delete</button>
+                            <a href="picture.html"><button class="modifyButton" onclick="alert('modified')">Modify</button></a>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                 </table>
@@ -109,36 +116,38 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/6114850721.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/222223.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoName">Title</td>
                     </tr>
                     <tr>
-                        <td>每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
+                        <td class="introduction">每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚面。每一项结果的左边是缩略图，右边是标题和描述，标题与描述有区分。
                             2、每一栏包括两个按钮，分别用来修改图片信息和删除图片(alert)，点击修改图片信息按 钮需要跳转到上传界面，在上传⻚面修改原有的图片信息。
                             功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
+                            整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
+                            整个部分下方显示⻚码(无需实现⻚码功能)到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)功能缺陷:在跳转到上传界面的时候应该需要在上传界面中填充图片原有的信息，但是 本次PJ只需要跳转到上传界面即可，无需填充。
                             整个部分下方显示⻚码(无需实现⻚码功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="modifyButton">Modify</button>
-                            <button class="deleteButton">Delete</button>
+                            <a href="picture.html"><button class="modifyButton" onclick="alert('modified')">Modify</button></a>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                     <div class="pagination">
                         <ul>
                             <li><a href="../../index.html">«</a></li>
-                            <li><a class="active" href="../../index.html">首</a></li>
-                            <li><a href="../../index.html">2</a></li>
-                            <li><a href="../../index.html">3</a></li>
-                            <li><a href="../../index.html">4</a></li>
-                            <li><a href="../../index.html">5</a></li>
-                            <li><a href="../../index.html">6</a></li>
-                            <li><a href="../../index.html">尾</a></li>
-                            <li><a href="../../index.html">»</a></li>
+                            <li><a class="active" href="myPhoto.html">首</a></li>
+                            <li><a href="myPhoto.html">2</a></li>
+                            <li><a href="myPhoto.html">3</a></li>
+                            <li><a href="myPhoto.html">4</a></li>
+                            <li><a href="myPhoto.html">5</a></li>
+                            <li><a href="myPhoto.html">6</a></li>
+                            <li><a href="myPhoto.html">尾</a></li>
+                            <li><a href="myPhoto.html">»</a></li>
                         </ul>
                     </div>
                 </table>

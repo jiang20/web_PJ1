@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/pagination.css">
     <link rel="stylesheet" type="text/css" href="../styles/foot.css">
 </head>
-<body>
+<body onresize="changed()">
 
 <header id="header">
     <nav class="navigation">
@@ -22,10 +22,10 @@
     <div class="dropdown">
         <button id="account">My account</button>
         <div class="dropdown-content">
-            <a href="uploadedPage.html">upload</a>
-            <a href="myPhoto.html">my photos</a>
-            <a href="like.html">like</a>
-            <a href="../../index.html">sign in</a>
+            <a href="uploadedPage.html"><img src="../../img/icons/upload.png">upload</a>
+            <a href="myPhoto.html"><img src="../../img/icons/photo.png">my photos</a>
+            <a href="like.html" class="active"><img src="../../img/icons/like.png">like</a>
+            <a href="../../index.html"><img src="../../img/icons/sign.png">sign in</a>
         </div>
     </div>
 </header>
@@ -37,21 +37,27 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/9493997865.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/9493997865.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoTitle">Title</td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="introduction">
                             导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
                             1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
                             2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="deleteButton">Delete</button>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                 </table>
@@ -59,21 +65,27 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/9493997865.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/9493997865.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoTitle">Title</td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="introduction">
                             导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
                             1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
                             2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="deleteButton">Delete</button>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                 </table>
@@ -81,21 +93,27 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/9493997865.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/9493997865.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoTitle">Title</td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="introduction">
                             导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
                             1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
                             2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="deleteButton">Delete</button>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                 </table>
@@ -103,21 +121,27 @@
         </tr>
         <tr>
             <td>
-                <img src="../../img/normal/medium/9493997865.jpg">
+                <a href="picture.html"><img src="../../img/normal/medium/9493997865.jpg"></a>
                 <table>
                     <tr>
                         <td class="photoTitle">Title</td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="introduction">
                             导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
+                            1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
+                            2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)导航栏 + ⻚脚同上 显示部分:
                             1、每张照片的信息独占一栏，其中包括图片、图片标题、图片描述。点击图片跳转到图片详 情⻚。
                             2、每一栏有一个按钮，用于取消对这张图片的收藏(alert) 3、下方显示⻚码(无需实现功能)
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button class="deleteButton">Delete</button>
+                            <button class="deleteButton" onclick="alert('delete')">Delete</button>
                         </td>
                     </tr>
                     <div class="pagination">

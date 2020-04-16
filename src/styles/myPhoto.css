@@ -26,7 +26,7 @@ body
 .myPhotos td
 {
     border-bottom: 1px solid lightsteelblue;
-    padding: 5px 0 5px 15px;
+    margin: 5px 0 5px 15px;
 }
 
 .myPhotos .tableTitle td
@@ -52,7 +52,7 @@ body
     width: 75%;
     display: inline-block;
     vertical-align: top;
-    padding-top: 5px;
+    padding: 5px 0 0 5px;
 }
 
 .myPhotos table td
@@ -63,6 +63,16 @@ body
 .myPhotos table td.photoName
 {
     font-size: 15px;
+}
+.myPhotos table td.introduction
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    /*overflow: hidden;*/
 }
 .modifyButton,.deleteButton
 {
